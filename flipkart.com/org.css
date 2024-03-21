@@ -1,0 +1,946 @@
+*{
+    margin: 0%;
+    border: border-box;
+    font-family: arial;
+}
+body{
+    background-color: rgb(226, 226, 226);
+}
+.heading{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.poss1{
+    font-family: cursive;
+    width: 100PX;
+    font-size: 11px;
+    color: rgb(255, 196, 0);
+    font-weight:800;
+    margin-left: 60px;
+}
+.poss1 p{
+       
+      font-size: 25px;
+       color: blue;
+}
+.poss1 p i{
+    font-family: cursive;
+    font-weight: 900;
+}
+.search input{
+       border: none;
+       font-size: 20px;
+       background-color: rgba(255, 255, 255, 0);
+       width: 460px;
+       height: 40px;  
+       
+}
+
+.search{
+    background-color: rgb(238, 238, 248);
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.search i{
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 5px;
+}
+.login button{
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 4px;
+    font-size:16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.login button:hover{
+         background-color: blue;
+         color: white;
+}
+.cart button{
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 4px;
+    font-size:16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cart button:hover{
+         background-color: blue;
+         color: white;
+}
+
+.seller button{
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 160px;
+    border-radius: 4px;
+    font-size:16px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.seller button:hover{
+         background-color: blue;
+         color: white;
+}
+.menu button{
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    font-size:16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menu button:hover{
+         background-color: blue;
+         color: white;
+}
+.navbar{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navpanel{
+    height:120px;
+    background-color: white;
+    width: 1330px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grocery{
+    height: 60px;
+    width: 90px;
+    background-image: url(grocery.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.grocery:hover{
+    border: solid 1px blue;
+}
+.mobile{
+    height: 60px;
+    width: 90px;
+    background-image: url(mobile.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.mobile:hover{
+    border: solid 1px blue;
+}
+.fashion{
+    height: 60px;
+    width: 30px;
+    background-image: url(fashion.png);
+    background-size:contain;
+}
+.fashion:hover{
+    border: solid 1px blue;
+}
+.electronic{
+    height: 60px;
+    width: 90px;
+    background-image: url(electronic.png);
+    background-size: cover;
+}
+.electronic:hover{
+    border: solid 1px blue;
+}
+.furniture{
+    height: 60px;
+    width: 65px;
+    background-image: url(furniture.png);
+    background-size: contain;
+}
+.furniture:hover{
+    border: solid 1px blue;
+}
+.applience{
+    height: 60px;
+    width: 90px;
+    background-image: url(applience.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.applience:hover{
+    border: solid 1px blue;
+}
+.toys{
+    height: 60px;
+    width: 90px;
+    background-image: url(toys.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.toys:hover{
+    border: solid 1px blue;
+}
+.bike{
+    height: 60px;
+    width: 90px;
+    background-image: url(bike.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.bike:hover{
+    border: solid 1px blue;
+}
+.banner{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    background-image: url(banner.jpg);
+    background-size: contain;
+    height: 240px;
+    width: 1330px;
+    cursor: pointer;
+}
+.cash{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icici{
+    width: 1330px;
+    height: 170px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ads{
+    background-image: url(bank.jpg);
+    background-size: contain;
+    height: 90px;
+    width: 700px;
+    border: solid 3px rgba(0, 0, 0, 0.068);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.phones{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.store1{
+    height: 300px;
+    width: 1090px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pos1{
+    height: 200px;
+    width: 160px;
+    border: solid 3px rgba(0, 0, 0, 0.068);
+    text-align: center;
+
+}
+.pos2{
+    height: 200px;
+    width: 160px;
+    border: solid 3px rgba(0, 0, 0, 0.068);
+    text-align: center;
+}
+.pos3{
+    height: 200px;
+    width: 160px;
+    border: solid 3px rgba(0, 0, 0, 0.068);
+    text-align: center;
+    
+}
+.pos4{
+    height: 200px;
+    width: 160px;
+    border: solid 3px rgba(0, 0, 0, 0.068);
+    text-align: center;
+}
+.pos5{
+    height: 200px;
+    width: 160px;
+    border: solid 3px rgba(0, 0, 0, 0.068);
+    text-align: center;
+}
+
+.hot1{
+    background-image: url(iphone.png);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+.hot2{
+    background-image: url(iphone15.png);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+.hot3{
+    background-image: url(redmi12.png);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+
+}
+.hot4{
+    background-image: url(samsung.png);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+.hot5{
+    background-image: url(realme.png);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+.store2{
+    height: 300px;
+    width: 230px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.hot6{
+    height: 300px;
+    width: 220px;
+    background-image: url(add.PNG);
+    background-size: cover;
+    cursor: pointer;
+}
+.cycle1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+}
+.cycle11{
+    background-color: white;
+    width: 1330px;
+    height: 250px;
+    display: block;
+}  
+.vol1{
+    height: 50px; 
+     background-color: white;
+}
+.vol1 p{
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.vol2{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.wheel1{
+    width: 200px;
+    height: 180px;
+    border:1px solid rgba(0, 0, 0, 0.308);
+    text-align: center;
+    cursor: pointer;
+}
+.wheel2{
+    width: 200px;
+    height: 180px;
+    border:1px solid rgba(0, 0, 0, 0.308);
+    text-align: center;
+    cursor: pointer;
+}
+.toy{
+    width: 200px;
+    height: 180px;
+    border:1px solid rgba(0, 0, 0, 0.308);
+    text-align: center;
+    cursor: pointer;
+}
+.mic{
+    width: 200px;
+    height: 180px;
+    border:1px solid rgba(0, 0, 0, 0.308);
+    text-align: center;
+    cursor: pointer;
+
+}
+.badam{
+    width: 200px;
+    height: 180px;
+    border:1px solid rgba(0, 0, 0, 0.308);
+    text-align: center;
+    cursor: pointer;
+}
+.im1{
+       background-image: url(cycle1.png);
+       background-size: cover;
+       height: 113px;
+       width: 180px;
+}
+
+.im2{
+background-image: url(cycle2.png);
+background-size: cover;
+height: 113px;
+width: 180px;
+}
+
+
+.im3{
+background-image: url(food.png);
+background-size: cover;
+height: 113px;
+width: 190px;
+}
+
+.im4{
+background-image: url(guitar.png);
+background-size: cover;
+height: 118px;
+width: 45px;
+margin-left: 75px;
+}
+
+
+.im5{
+background-image: url(cars.jpg);
+background-size: cover;
+height: 120px;
+width: 130px;
+}
+.collection{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.objects{
+    height: 550px;
+    width: 1330px;
+    background-color: white;
+    display: block;
+}
+.contant1{
+        height: 50px;
+        font-size: 25px;
+        font-weight: 700;
+        padding-left: 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.contant1 a{
+    color: blue;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+
+
+
+.contant2{
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.value1{
+    height: 90px;
+    width: 65px;
+    background-image: url(phonei.png);
+    background-size: cover;
+    margin-left: 15px;
+}
+.details1{
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+
+
+
+.contant3{
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.value2{
+    height: 90px;
+    width: 73px;
+    background-image: url(value2.PNG);
+    background-size: cover;
+    margin-left: 10px;
+}
+.details2{
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+
+
+
+
+.contant4{
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.value3{
+    height: 90px;
+    width: 73px;
+    background-image: url(value3.PNG);
+    background-size: cover;
+    margin-left:10px;
+}
+.details3{
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+
+
+
+.contant5{
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.value4{
+    height: 90px;
+    width: 73px;
+    background-image: url(value4.PNG);
+    background-size: cover;
+    margin-left:10px;
+}
+.details4{
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+
+
+
+.contant6{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.value5{
+    height: 90px;
+    width: 73px;
+    background-image: url(value5.PNG);
+    background-size: cover;
+    margin-left:10px;
+}
+.details5{
+    font-size: 17px;
+    margin-left: 20px;
+}
+.request{
+    height: 300px;
+    background-color: rgb(47, 45, 45);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.one{
+    color: white;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.two{
+    color: white;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.three{
+    color: white;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.four{
+    color: white;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.one ul:hover{
+    color:rgb(0, 217, 255);
+}
+.two ul:hover{
+    color:rgb(0, 217, 255);
+}
+.three ul:hover{
+    color:rgb(0, 217, 255);
+}
+.four ul:hover{
+    color:rgb(0, 217, 255);
+}
+.ending{
+    height: 70px;
+    border-top: 1px solid rgba(255, 255, 255, 0.274);
+    background-color: rgb(47, 45, 45);
+    display: flex;
+    align-items: center;
+}
+.the{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    
+}
+.the button{
+    background-color: rgb(47, 45, 45);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.the button i{
+    color: rgb(255, 230, 0);
+}
+.end{
+     width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+}
+.bye{
+    width: 35%;
+    background-image: url(paymethod.png);
+    background-size: cover;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************MEDIA QUERY**************/
+
+
+
+@media only screen and (max-width:700px){
+    .poss1{
+        margin-left: 0%;
+    }
+    .poss1 p i{
+        font-size: 18px;
+    }
+    .poss1 i{
+        font-size: 10px;
+        position: relative;
+        bottom: 5px;
+    }
+    .heading{
+        
+        width: 100%;
+    }
+    .search{
+        position: relative;
+        
+        width: 45%;
+        height: 30px;
+    }
+    .search i{
+        font-size: 10px;
+    }
+    .search input{
+        font-size: 10px;
+    }
+    .login button{
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .seller button
+    {
+        display: none;
+    }
+    .cart button
+    {
+        display: none;
+    }
+    .menu button
+    {
+        width:80%;
+    }
+    .navbar{
+        height: 95px;
+    }
+    .navpanel{
+        height: 70%;
+        width: 95%;
+    }
+    .bike{
+        display: none;
+    }
+    .fashion{
+        display: none;
+    }
+    .furniture{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+    .toys{
+        height: 40px;
+        width: 60px;
+    }
+    .applience{
+        height: 40px;
+        width: 60px;
+    }
+    .electronic{
+        height: 40px;
+        width: 60px;
+    }
+    .grocery{
+        height: 40px;
+        width: 60px;
+    }
+    .banner{
+        height: 150px;
+        width: 100%;
+    }
+    .photo{
+        height: 150px;
+        width: 95%;
+        background-size: cover;
+    }
+    .cash{
+        height: 150px;
+    }
+    .icici{
+        height: 80%;
+        width: 96%;
+    }
+    .ads{
+        height: 45%;
+        width: 85%;
+        background-size: cover;
+    }
+    .phones{
+        height: 150px;
+    }
+   .store1{
+       width: 98%;
+       height: 150px;
+   }
+   .store2{
+       display: none;
+   }
+   .pos1{
+       border: 1px solid rgba(0, 0, 0, 0.198);
+       height: 150px;
+   }
+   .hot1{
+       width: 100px;
+       height: 100px;
+   }
+   .pos2{
+       border: 1px solid rgba(0, 0, 0, 0.198);
+       height: 150px;
+   }
+   .hot2{
+    width: 100px;
+    height: 100px;
+}
+   .pos4{
+       border: 1px solid rgba(0, 0, 0, 0.198);
+       height: 150px;
+   }
+   .hot4{
+    width: 100px;
+    height: 100px;
+}
+   .pos3{
+       display: none;
+   }
+   .pos5{
+       display: none;
+   }
+   .cycle1{
+       height: 220px;
+   }
+   .cycle11{
+             width: 100%;
+             height: 200px;
+   }
+   .vol1{
+       height: 30px;
+   }
+   .vol1 p{
+            font-size: 16px;
+            padding-left: 5px;
+   }
+   .vol2{
+         height: 170px;
+   }
+   .wheel1{
+    width: 100px;
+    height: 160px;
+    border:1px solid rgba(0, 0, 0, 0.123);
+    text-align: center;
+    font-size: 12px;
+}
+   .im1{
+    background-image: url(cycle1.png);
+    background-size: cover;
+    height: 60px;
+    width: 100px;
+    margin-bottom: 30px;
+}
+.wheel2{
+    width: 90px;
+    height: 160px;
+    border:1px solid rgba(0, 0, 0, 0.123);
+    text-align: center;
+    font-size: 12px;
+}
+.im2{
+    background-image: url(cycle2.png);
+    background-size: contain;
+    height: 60px;
+    width: 90px;
+    margin-bottom: 30px;
+
+    }
+    .toy{
+        width: 90px;
+        height: 160px;
+        border:1px solid rgba(0, 0, 0, 0.123);
+        text-align: center;
+        font-size: 12px;
+    }
+    .im3{
+        background-image: url(food.png);
+        background-size: cover;
+        height: 60px;
+        width: 90px;
+    margin-bottom: 30px;
+
+        }
+        .mic{
+            display: none;
+        }
+        .badam{
+            width: 90px;
+            height: 160px;
+            border:1px solid rgba(0, 0, 0, 0.123);
+            text-align: center;
+            font-size: 12px;
+        }
+        .im5{
+            background-image: url(cars.jpg);
+            background-size: cover;
+            height: 90px;
+            width: 90px;
+            }
+            .objects{
+                width: 96%;
+            }
+            .contant1{
+                font-size: 16px;
+                padding-left: 5px;
+            }
+
+       .request{
+           display: block;
+           height: 850px;
+       }
+       .ending{
+           display: block;
+           height: 210px;
+       }
+       .the{
+             width: 100%;
+             border-bottom:1px solid rgba(255, 255, 255, 0.274);
+       }
+       .the button{
+           font-size: 10px;
+           padding-bottom: 30px;
+       }
+       .one ul b{
+        font-size: 30px;
+    }
+       .two ul b{
+        font-size: 30px;
+    }
+       .three ul b{
+        font-size: 30px;
+    }
+       .four ul b{
+           font-size: 30px;
+       }
+       .end{
+           width: 100%;
+           height: 60px;
+           border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+       }
+       .bye{
+           width: 100%;
+          margin-top:30px;
+       }
+}
